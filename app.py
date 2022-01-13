@@ -241,7 +241,7 @@ def getLocationConfirmMessage(title, latitude, longitude):
                     {
                         "type": "message",
                         "label": "否",
-                        "text": "否"
+                        "text": "感謝你的使用"
                       }
           ]
     }
@@ -277,10 +277,10 @@ def getPlayStickerMessage():
 def getTaipei101LocationMessage():
     message = dict()
     message["type"] = "location"
-    message["title"] = "台北101"
-    message["address"] = "臺北市信義區西村里8鄰信義路五段7號"
-    message["latitude"] = 25.0335748
-    message["longitude"] = 121.5612538
+    message["title"] = "樹林火車站"
+    message["address"] = "新北市樹林區樹北里鎮前街112號"
+    message["latitude"] = 24.9914357
+    message["longitude"] = 121.4249539
     return message
 
 
